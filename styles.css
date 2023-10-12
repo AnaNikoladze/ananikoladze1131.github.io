@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000; /* Set the background color to black */
+    color: #df66df; /* Set the text color to pink */
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #000000;
+    color: #df66df;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    margin-top: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #df66df; /* Set the link color to pink */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    background: url('hero_bg.jpg') no-repeat center center/cover;
+    color: #df66df; /* Set the text color to pink */
+    text-align: center;
+    padding: 100px 0;
+}
+
+.albums,
+.gallery,
+.about {
+    padding: 80px 0;
+    text-align: center;
+}
+
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.image-gallery img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+footer {
+    background-color: #000000;
+    color: #df66df; /* Set the text color to pink */
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
